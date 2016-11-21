@@ -1,0 +1,26 @@
+<idea-plugin version="2">
+  <id>com.dddev.modern.icons</id>
+  <name>Modern Icons</name>
+  <version>1.0</version>
+  <vendor email="info@dddev.com.au" url="http://www.dddev.com.au">Data Driven Development</vendor>
+
+  <description><![CDATA[
+      Modern icons for Intellij suite of products.
+    ]]></description>
+
+  <change-notes><![CDATA[
+    ]]>
+  </change-notes>
+
+  <idea-version since-build="141.0"/>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <iconProvider implementation="com.dddev.modern.icons.ModernIconProvider"/>
+  </extensions>
+
+  <actions>
+  </actions>
+
+</idea-plugin>

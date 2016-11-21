@@ -13,6 +13,10 @@ New icons! Screenshot is from WebStorm.
 
 ![Screenshot](./Screenshot.png)
 
+# Usage
+
+Import 'intellij-modern-icons.jar' into your fav Intellij product using File\Settings\Plugins\Install plugin from disk.
+
 # Acknowledgments
 
 I've gotta give shout-outs to the following sources:
